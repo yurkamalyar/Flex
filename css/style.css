@@ -119,6 +119,7 @@ body {
 }
 
 .footer__row {
+	height: 65px;
 }
 .footer__text {
 	font-size: 12px;
