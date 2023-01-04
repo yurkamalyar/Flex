@@ -101,13 +101,19 @@ body {
 }
 
 .hi {
+	background-color: #445162;
+	color: #ffffff;
+	padding: 50px 0px;
 }
 
 .hi__row {
+	display: flex;
+	justify-content: space-between;
 }
 .hi__body {
 }
 .hi__title {
+	font-size: 60px;
 }
 .hi__list {
 }
@@ -119,11 +125,13 @@ body {
 }
 
 .footer__row {
+	display: flex;
 	height: 65px;
+	justify-content: center;
+	align-items: center;
 }
 .footer__text {
 	font-size: 12px;
 	color: rgb(68, 81, 98);
-	line-height: 2;
-	text-align: center;
+	letter-spacing: calc(12px * 25 / 1000);
 }
