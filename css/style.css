@@ -102,7 +102,6 @@ body {
 
 .hi {
 	background-color: #445162;
-	color: #ffffff;
 	padding: 50px 0px;
 }
 
@@ -111,11 +110,23 @@ body {
 	justify-content: space-between;
 }
 .hi__body {
+	color: #ffffff;
 }
 .hi__title {
+	line-height: 1.2;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 	font-size: 60px;
+	margin: 0px 0px 38px 0px;
 }
 .hi__list {
+	line-height: 1.8;
+	font-size: 20px;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.hi__list li {
+	margin: 0px 0px 15px 0px;
+	background: url("../Img/icon/check\ icon.png") 0 1px no-repeat;
+	padding: 0px 0px 0px 38px;
 }
 .hi__image {
 }
