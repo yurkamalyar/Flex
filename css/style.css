@@ -157,6 +157,7 @@ body {
 	font-size: 30px;
 	line-height: 1.2;
 	text-align: left;
+	color: #445161;
 }
 .what {
 	padding: 50px 0px;
@@ -187,4 +188,36 @@ body {
 }
 .what__text p:last-child {
 	margin: 0;
+}
+
+/* ------COLUMNS-------------------- */
+.columns {
+	padding: 48px 0px 0px 0px;
+	background: #f5f5f5;
+}
+.container {
+}
+.columns__title {
+	padding: 0px 0px 31px 0px;
+	text-align: center;
+}
+.columns__row {
+	display: flex;
+}
+.columns__column {
+}
+.columns__item {
+}
+.item {
+}
+.item__row {
+	display: flex;
+}
+.item__img {
+}
+.item__body {
+}
+.item__title {
+}
+.item__text {
 }
