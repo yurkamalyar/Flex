@@ -127,6 +127,11 @@ body {
 	margin: 0px 0px 15px 0px;
 	background: url("../Img/icon/check\ icon.png") 0 1px no-repeat;
 	padding: 0px 0px 0px 38px;
+	margin: 0px 0px 15px 0px;
+	font-size: 20px;
+}
+.hi__list li:last-child {
+	margin: 0;
 }
 .hi__image {
 }
@@ -145,4 +150,41 @@ body {
 	font-size: 12px;
 	color: rgb(68, 81, 98);
 	letter-spacing: calc(12px * 25 / 1000);
+}
+/* --------WHAT------------------------- */
+
+.title {
+	font-size: 30px;
+	line-height: 1.2;
+	text-align: left;
+}
+.what {
+	padding: 50px 0px;
+}
+.what__row {
+	display: flex;
+}
+
+.what__image {
+	max-width: 430px;
+}
+.what__body {
+	margin: 0px 0px 0px 38px;
+}
+.what__title {
+	margin: 0px 0px 36px 0px;
+	color: #445161;
+}
+
+.what__text {
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: left;
+	color: #333;
+}
+.what__text p {
+	margin: 0px 0px 33px 0px;
+}
+.what__text p:last-child {
+	margin: 0;
 }
